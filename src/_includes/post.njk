@@ -15,6 +15,12 @@ layout: base.njk
     <div class="post-content">
       {{ content | safe }}
     </div>
+    
+    <div class="uo-section mt-5">
+      <h3>Comentários</h3>
+
+      <div id="comments">Carregando comentários...</div>
+    </div>
 
     <div class="mt-5">
       <a href="/blog/" class="uo-btn btn-sm">← Voltar ao blog</a>
@@ -23,3 +29,29 @@ layout: base.njk
   </div>
 
 </div>
+
+
+<script>
+const url = window.location.href;
+
+fetch(`https://webmention.io/api/mentions.jf2?target=${encodeURIComponent(url)}`)
+  .then(r => r.json())
+  .then(data => {
+    const comments = data.children.filter(m => m["wm-property"] === "in-reply-to");
+
+    const container = document.getElementById("comments");
+
+    if (!comments.length) {
+      container.innerHTML = "<p>Nenhum comentário ainda.</p>";
+      return;
+    }
+
+    container.innerHTML = comments.map(c => `
+      <div class="uo-card p-3 mb-3">
+        <strong>${c.author?.name || "Anônimo"}</strong><br>
+        <small>${new Date(c.published).toLocaleDateString("pt-BR")}</small>
+        <p>${c.content?.text || ""}</p>
+      </div>
+    `).join("");
+  });
+</script>
