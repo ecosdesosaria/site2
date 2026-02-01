@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-title: Notícias
+title: Notícias - Ecos de Sosaria - Servidor Ultima Online Roleplay
 pagination:
   data: collections.blog
   size: 20
@@ -27,8 +27,9 @@ permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumbe
 
        <div class="post-preview mt-2">
         {{ post.templateContent | safe }}
-      </div>
-
+        
+       </div>
+        <br>
         <a href="{{ post.url }}" class="uo-btn btn-sm">
           Leia mais →
         </a>
