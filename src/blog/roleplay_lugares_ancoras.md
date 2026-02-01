@@ -4,6 +4,7 @@ date: 2026-02-01
 layout: post.njk
 tags: blog
 description: Build para um caçador de tesouros / treasure hunter desafiadora e para jogadores experientes.
+image: https://lemmy.eco.br/pictrs/image/29c3d9c6-14e6-44f0-9c7a-d5a9fcc09a9f.webp
 ---
 
 # Os Lugares Âncora de Sosaria

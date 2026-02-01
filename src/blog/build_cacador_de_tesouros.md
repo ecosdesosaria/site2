@@ -4,6 +4,7 @@ date: 2026-02-01
 layout: post.njk
 tags: blog
 description: Build para um caçador de tesouros / treasure hunter desafiadora e para jogadores experientes.
+image: https://lemmy.eco.br/pictrs/image/02d7144a-937f-4410-af14-97c6f9b54f2e.webp
 ---
 
 # Introdução

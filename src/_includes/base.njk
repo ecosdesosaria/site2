@@ -15,19 +15,20 @@
     <meta name="keywords" content="Ultima Online, UO, Roleplay, RPG, Servidor UO, UO Brasil, Ecos de Sosaria, MMORPG">
     <meta name="author" content="Ecos de Sosaria">
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://ecosdesosaria.com/">
-    <meta property="og:title" content="Ecos de Sosaria - Servidor UO Roleplay">
-    <meta property="og:description" content="Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.">
-    <meta property="og:image" content="/logo_ecosdesosaria.png">
+    <meta property="og:type" content="{% if layout == 'post.njk' %}article{% else %}website{% endif %}">
+    <meta property="og:url" content="{{ page.url | url }}">
+    <meta property="og:title" content="{{ title or 'Ecos de Sosaria - Servidor Ultima Online Roleplay' }}">
+    <meta property="og:description" content="{{ description or 'Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.' }}">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://ecosdesosaria.com/">
-    <meta property="twitter:title" content="Ecos de Sosaria - Servidor UO Roleplay">
-    <meta property="twitter:description" content="Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.">
-    <meta property="twitter:image" content="/logo_ecosdesosaria.png">
+   
+    <meta property="og:image" content="{{ image or '/logo_ecosdesosaria.png' }}">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{{ page.url | url }}">
+    <meta name="twitter:title" content="{{ title or 'Ecos de Sosaria - Servidor Ultima Online Roleplay' }}">
+    <meta name="twitter:description" content="{{ description or 'Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.' }}">
+    <meta name="twitter:image" content="{{ image or '/logo_ecosdesosaria.png' }}">
+
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
