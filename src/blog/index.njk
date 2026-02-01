@@ -1,0 +1,51 @@
+---
+layout: base.njk
+title: Notícias
+pagination:
+  data: collections.blog
+  size: 20
+  reverse: true
+permalink: "/blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}/{% endif %}index.html"
+---
+
+<h1 class="text-center my-5">Notícias</h1>
+
+<div class="container">
+
+  <div class="uo-section">
+
+    {% for post in pagination.items %}
+      <div class="uo-card mb-4 p-4">
+
+        <h3>
+          <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </h3>
+
+        <small class="text-muted">
+          {{ post.date | readableDate }}
+        </small>
+
+       <div class="post-preview mt-2">
+        {{ post.templateContent | safe }}
+      </div>
+
+        <a href="{{ post.url }}" class="uo-btn btn-sm">
+          Leia mais →
+        </a>
+
+      </div>
+    {% endfor %}
+
+    <div class="d-flex justify-content-between mt-5">
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}" class="uo-btn">← Anterior</a>
+      {% endif %}
+
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}" class="uo-btn">Próxima →</a>
+      {% endif %}
+    </div>
+
+  </div>
+
+</div>
