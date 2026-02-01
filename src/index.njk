@@ -1,0 +1,577 @@
+---
+layout: base.njk
+title: Ecos de Sosaria - Servidor Ultima Online Roleplay
+---
+ 
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center">
+            
+            <!-- Texto principal -->
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 mb-4">Bem-vindo aos<br><b> Ecos de Sosaria</b></h1>
+                <p class="lead fs-4">Um servidor de Ultima Online focado em roleplay, onde suas ações moldam o mundo.</p>
+                <div class="mt-4">
+                <a href="#download" class="btn uo-btn mt-2">Jogar Agora</a>
+                <a href="https://stt.gg/D4QVyFgc" class="btn uo-btn mt-2" target="_blank">Stoat</a>
+                <br>
+                </div>
+            </div>
+
+            <!-- Bloco de status à direita -->
+            <div class="col-lg-5 mt-5 mt-lg-0 ">
+                <div class="fs-5 p-3 border rounded-4 bg-light bg-opacity-25 shadow-sm">
+                <p class="mb-2">
+                    <strong>Status do Servidor</strong>
+                    <span class="server-status badge bg-success bg-opacity-25 text-success border border-success ms-2 px-3 py-2">
+                    <i class="bi bi-check-circle-fill me-1"></i>Online
+                    </span>
+                </p>
+                
+                <p>Contas criadas: <strong id="accounts">0</strong></p>
+                
+                <p class="mb-2">Jogadores conectados: <strong id="count">0</strong></p>
+                <div id="players-box" class="players-box border rounded-3 bg-light bg-opacity-25 p-2">
+                    <ul id="players" class="list-unstyled mb-0 small text-start">
+                    <li class="text-muted"><i class="bi bi-hourglass-split me-2"></i> Carregando...</li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <i class="bi bi-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="container mt-5">
+        <div class="uo-section">
+            <h2 class="text-center">Sobre os Ecos de Sosaria</h2>
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <p>Os Ecos de Sosaria é um servidor de Ultima Online, baseado no mod Secrets of Sosaria dedicado ao roleplay, onde cada jogador tem a oportunidade de criar uma história única em um mundo persistente e em constante evolução.</p>
+                    <p>Nossa comunidade valoriza a interpretação de personagens, a criação de narrativas colaborativas e a imersão no mundo de Sosaria.</p>
+		    <p><b>Importante:</b> Se você não gosta de Roleplay, recomendo o <a href="https://instagram.com/secretsofsosariabr" target="_blank">Secrets of Sosaria BR</a> que roda no mesmo mod e é sem roleplay e possui mais jogadores :)</p>
+                    
+			<div class="mt-4">
+                       <div class="ratio ratio-16x9">
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/DWNJkhCT2Qw?si=f71s9PQmqpc6oYHr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+
+
+		    <div class="uo-quote">
+                        "Em Sosaria, suas escolhas definem seu destino. Seja um nobre cavaleiro, um astuto ladrão ou um poderoso mago, o mundo responde às suas ações."
+                    </div>
+                    <a href="https://wiki.ecosdesosaria.com/wiki/Sobre" class="btn uo-btn mt-3" target="_blank">Saiba Mais</a>
+                </div>
+                <div class="col-md-6">
+                    <div class="row text-center">
+                        <div class="col-6 mb-4">
+                            <div class="uo-feature-icon">⚔️</div>
+                            <h5>Aventuras Épicas</h5>
+                            <p>Tanto para jogar sozinho ou com outros</p>
+                        </div>
+                        <div class="col-6 mb-4">
+                            <div class="uo-feature-icon">📖</div>
+                            <h5>Roleplay</h5>
+                            <p>Eventos e histórias focadas na interpretação</p>
+                        </div>
+                        <div class="col-6 mb-4">
+                            <div class="uo-feature-icon">🏰</div>
+                            <h5>Cidades</h5>
+                            <p>Cidades vivas com NPCs e quests únicas</p>
+                        </div>
+                        <div class="col-6 mb-4">
+                            <div class="uo-feature-icon">👥</div>
+                            <h5>Comunidade</h5>
+                            <p>Comunidade pequena mas acolhedora</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Raças -->
+    <section id="racas" class="container mt-5">
+        <div class="uo-section">
+            <h2 class="text-center">Espécies de Sosaria</h2>
+            <p>Em Ecos de Sosaria você pode escolher entre diversas espécies jogáveis. Por limitação do cliente, as armas e armaduras equipadas nas espécies, que não seja a humana, não aparecerão no jogo ou no personagem. Algumas das espécies terão vantagens e desvantagens, incluindo não poder entrar nas cidades dos humanos, em alguns casos.</p>
+            
+            <p><b>Importante:</b> espécies hostis são as únicas que podem atacar ou serem atacadas por personagens não hostis, sem justificativa. No jogo, essas espécies são consideradas <b>monstros</b>. No entanto, o gank é proibido. Você deve dar tempo para o outro player fugir, depois de ressucitar. Você deve jogar como se fosse um monstro do jogo (incluindo saber que pode possuir baixo intelecto) e interpretar como o mesmo (talvez nem falando a mesma língua de um humano, ou com limitações). O player de uma espécie hostil, poderá levar apenas 1 item do corpo de algum player morto, no entanto, caso um player não hostil mate um player de espécie hostil, poderá levar todos os itens com ele.</p>
+            
+            <p><b>Importante:</b> A regra acima não se aplica a <b>Humanos</b> hostis. Humanos hostis não podem ser atacados nem atacar outro player fora do RP.</p>
+            
+            <h4 class="mt-4">Lista de Espécies Disponíveis</h4>
+            <ul class="races-list">
+                <li>Humanos</li>
+                <li>Aquáticos</li>
+                <li>Bugbear</li>
+                <li>Centauro</li>
+                <li>Demônio</li>
+                <li>Fada</li>
+                <li>Fungo</li>
+                <li>Gárgula</li>
+                <li>Gnoll</li>
+                <li>Goblin</li>
+                <li>Golem (Flesh Golem)</li>
+                <li>Hobgoblin</li>
+                <li>Illithid (Mind Flayer)</li>
+                <li>Imp</li>
+                <li>Kilrathi</li>
+                <li>Kobold</li>
+                <li>Minotauro</li>
+                <li>Múmia</li>
+                <li>Naga</li>
+                <li>Ogre</li>
+                <li>Orc</li>
+                <li>Planta (Shambler)</li>
+                <li>Reptiliano</li>
+                <li>Roedor (Homem-Rato)</li>
+                <li>Salamandra</li>
+                <li>Satyr (Sátiro)</li>
+                <li>Serpente</li>
+                <li>Skeleton (Esqueleto)</li>
+                <li>Sphinx (Esfinge)</li>
+                <li>Succubus</li>
+                <li>Troll</li>
+                <li>Vampiro</li>
+                <li>Zumbi</li>
+            </ul>
+            
+            <div class="text-center mt-4">
+                <a href="https://wiki.ecosdesosaria.com/wiki/Esp%C3%A9cies" class="btn uo-btn" target="_blank">Saiba Mais Sobre as Espécies</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section id="habilidades" class="container mt-5">
+        <div class="uo-section">
+            <h2 class="text-center">Habilidades</h2>
+            <p>Em Ecos de Sosaria, temos ao todo 55 habilidades distribuídas em diferentes categorias, permitindo que você crie personagens únicos e especializados.</p>
+            <p>As habilidades vão de 0.0 até 100.0 e você pode ter até 1000.0 pontos distribuídos.</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="skills-category">
+                        <h4>Habilidades Variadas</h4>
+                        <ul class="skills-list">
+                            <li>Arms Lore (Conhecimento sobre armas)</li>
+                            <li>Begging (Mendigar / Implorar)</li>
+                            <li>Camping (Acampar)</li>
+                            <li>Cartography (Cartografia)</li>
+                            <li>Forensic Evaluation (Avaliação Forense)</li>
+                            <li>Mercantile (Mercantil)</li>
+                            <li>Tasting (Degustação)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h4>Habilidades de Combate</h4>
+                        <ul class="skills-list">
+                            <li>Anatomy (Anatomia)</li>
+                            <li>Bludgeoning (Concussão)</li>
+                            <li>Fencing (Esgrima)</li>
+                            <li>Fist Fighting (Pugilismo)</li>
+                            <li>Focus (Foco)</li>
+                            <li>Healing (Cura)</li>
+                            <li>Marksmanship (Pontaria)</li>
+                            <li>Parry (Aparar)</li>
+                            <li>Swordsmanship (Espadachim)</li>
+                            <li>Tactics (Táticas)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h4>Habilidades Comerciais</h4>
+                        <ul class="skills-list">
+                            <li>Alchemy (Alquimia)</li>
+                            <li>Blacksmithing (Ferraria)</li>
+                            <li>Bowcrafting (Construção de Arcos)</li>
+                            <li>Carpentry (Carpintaria)</li>
+                            <li>Cooking (Culinária)</li>
+                            <li>Inscription (Inscrição)</li>
+                            <li>Lumberjacking (Lenhador)</li>
+                            <li>Mining (Mineração)</li>
+                            <li>Tailoring (Alfaiataria)</li>
+                            <li>Tinkering (Funilagem)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="skills-category">
+                        <h4>Habilidades Mágicas</h4>
+                        <ul class="skills-list">
+                            <li>Bushido</li>
+                            <li>Elementalism (Elementalismo)</li>
+                            <li>Knightship (Cavalaria)</li>
+                            <li>Magery (Magia)</li>
+                            <li>Magic Resistance (Resistência Mágica)</li>
+                            <li>Meditation (Meditação)</li>
+                            <li>Necromancy (Necromancia)</li>
+                            <li>Ninjitsu</li>
+                            <li>Psychology (Psicologia)</li>
+                            <li>Spiritualism (Espiritualismo)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h4>Habilidades Selvagens</h4>
+                        <ul class="skills-list">
+                            <li>Druidism (Druidismo)</li>
+                            <li>Herding (Pastoreio)</li>
+                            <li>Seafaring (Navegação Marítima)</li>
+                            <li>Taming (Domador)</li>
+                            <li>Tracking (Rastreamento)</li>
+                            <li>Veterinary (Veterinária)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h4>Habilidades Ladinas</h4>
+                        <ul class="skills-list">
+                            <li>Hiding (Esconder-se)</li>
+                            <li>Lockpicking (Arrombamento)</li>
+                            <li>Poisoning (Envenenamento)</li>
+                            <li>Remove Trap (Remover Armadilha)</li>
+                            <li>Searching (Procura)</li>
+                            <li>Snooping (Bisbilhotar)</li>
+                            <li>Stealing (Roubar)</li>
+                            <li>Stealth (Furtividade)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="skills-category">
+                        <h4>Habilidades de Bardo</h4>
+                        <ul class="skills-list">
+                            <li>Discordance (Discordância)</li>
+                            <li>Musicianship (Musicalidade)</li>
+                            <li>Peacemaking (Pacificador)</li>
+                            <li>Provocation (Provocação)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="https://wiki.ecosdesosaria.com/wiki/Habilidades" class="btn uo-btn" target="_blank">Saiba Mais Sobre as Habilidades</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- destinos -->
+    <section id="destinos" class="container mt-5">
+        <div class="uo-section">
+            <h2 class="text-center">Destinos</h2>
+            Você acorda em sua forma humana, sem entender se pertence a esse corpo ou não. Caminhas pelas árvores e encontra uma cabana cheia de luzes e cheiros de essências.<br>
+            Seu primeiro encontro é com uma cartomante. Ela oferece para ler cartas de tarô para você. Você aceita.<br>
+            Ela vira uma carta, e seu destino será selado.<br>
+            <br>
+            <h2 class="text-center">Destinos Humanos</h2>
+            
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">4</div> <h4>O Imperador</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_emperor.png" width="100%"></div>
+                        <p class="destino-text"><b>A cidade de Britain</b><br><br>Se você escolher esse destino, você começará a vida na capital de Sosaria e o lar do Lord British. O castelo magnifico do Lorde British está situado na parte norte da cidade, próximo a baía de Britain. Esse prédio alto é a maior estrutura arquitetonica da era moderna. A população local honra Vossa Majestade, e renova suas forças sempre que estão nas proximidades de seu castelo. Rumores nas tavernas falam sobre um segredo secreto abaixo do catelo, tão escuro que nem os cidadãos conseguem ver. Há fazendas por todos os lados, assim como cemitérios para os cidadãos e um outro para membros da Familia Real. Alguns são vistos entrando na tumba real, tarde da noite.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">15</div> <h4>O Diabo</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_devil.png" width="100%"></div>
+                        <p class="destino-text"><b>A Cidade de Devil Guard</b><br><br>Se este destino lhe for destinado, você terá uma nova vida em uma cidade totalmente cercada pelas <i>Grandes Montanhas</i> durante a <i>Terceira Era das Trevas</i>, acessível apenas pelo portão mágico. Após a destruição de <i>Exodus</i>, um túnel cavernoso rasgou a montanha, fornecendo uma rota alternativa. Lendas antigas contam sobre um castelo que caiu do céu, colidindo com as montanhas e criando o vale onde <i>Devil Guard</i> foi eventualmente construída. Contam-se histórias de que a cidade foi criada e colonizada por aqueles do castelo celeste, e que eles a nomearam porque protegiam os outros dos demônios há muito tempo.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">9</div> <h4>O Eremita</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_hermit.png" width="100%"></div>
+                        <p class="destino-text"><b>A Vila de Grey</b><br><br>Se esta é a carta que você procura, você pode começar uma nova vida nesta vila onde os habitantes, durante a <i>Terceira Era das Trevas</i>, deram várias pistas ao <i>Estranho</i> que derrotou <i>Exodus</i>. Houve até rumores de que eles venderam barcos que podiam voar para as estrelas, mas nenhum dos que restaram sabe como criar tais coisas. As lendas dizem que o <i>Estranho</i> voou para o céu e alterou o tempo e a realidade, fazendo com que um castelo retrocedesse no tempo e colidisse com a terra da antiga <i>Sosaria</i>. Agora, a vila é frequentemente o lar daqueles que apreciam a solidão. Não há montanhas para minerar, mas alguns cavaram sob o solo da floresta para obter minério. Há rumores de que o cemitério guarda um segredo que os necromantes sussurram em voz baixa.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">16</div> <h4>A Torre</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_tower.png" width="100%"></div>
+                        <p class="destino-text"><b>A Cidade de Montor</b><br><br>Se este destino lhe for destinado, você começará sua vida em uma vasta cidade, onde a coragem é especialmente valorizada, com todas as lojas necessárias para todos. Os habitantes de Montor sabiam muito sobre as místicas <i>Quatro Cartas</i> que o <i>Estranho</i> precisava para derrotar <i>Exodus</i>, bem como sobre as histórias dos santuários de <i>Ambrosia</i>. <i>Montor</i> é a cidade mais visitada e também a maior de <i>Sosaria</i> devido ao comércio de navios. Há uma pequena mina a leste, bem como uma torre a nordeste. Dizem que esta torre é o lar de um lich vil com um espelho mágico que atravessa dimensões, mas esses rumores são frequentemente contados com uma caneca de cerveja.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">1</div> <h4>O Mago</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_magician.png" width="100%"></div>
+                        <p class="destino-text"><b>A Cidade de Moon</b><br><br>Se você escolher este caminho, será um cidadão da cidade onde, durante a <i>Terceira Era das Trevas</i>, era cheia de magos. Eles eram, no entanto, do tipo corrupto e desonesto. <i>Erystam</i> também vivia na cidade, conduzindo seus experimentos para a imortalidade. Quando <i>Lord British</i> expulsou os magos corruptos da cidade após a destruição de <i>Exodus</i>, <i>Erstam</i> e os outros decidiram ir para a <i>Serpent Island</i>, onde ninguém poderia controlá-los. Agora um lugar tranquilo, muitos vêm aqui para cultivar e navegar pela costa em busca de mercados de peixes. É uma cidade popular por não ser muito grande, mas consegue oferecer muitos mercados para visitar. Aventureiros costumam vir do deserto próximo, gabando-se da riqueza obtida na <i>Ancient Pyramid</i>.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">0</div> <h4>O Tolo</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_fool.png" width="100%"></div>
+                        <p class="destino-text"><b>A Cidade de Mountain Crest</b></b><br><br>Se você seguir por esta estrada, será um cidadão de algumas pequenas ilhas em <i>Sosaria</i>, que possuem uma paisagem invernal rigorosa que outros consideram tolice habitar. Além desta cidade, também existem assentamentos a oeste e leste. Há várias cavernas e masmorras nas montanhas, além de uma torre incomum construída por um mago há muito tempo. Este lugar é uma das áreas mais difíceis de se viver, mas uma região nevada pode ser seu destino, se você a escolher.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">13</div> <h4>Morte</h4>
+                        <div class="uo-feature-icon"><img src="destinos/death.png" width="100%"></div>
+                        <p class="destino-text"><b>A Cidade Baixa de Umbra</b><br><br>Se você seguir por esta estrada, começará sua vida em um lugar que muitas pessoas desconhecem, pois foi construído como um refúgio para aqueles que praticam as artes necróticas. Nas profundezas das montanhas, a sudeste de <i>Britain</i>, os salões e cavernas escuros têm uma atmosfera assustadora, mas os necromantes se abastecem de lojas para fornecer itens muito necessários. A caverna fora da cidade é uma das mais altas já vistas. Alguns dizem que é alta o suficiente para construir um castelo longe da luz do sol. A tumba de um cavaleiro da morte também foi construída nas proximidades, e as <i>Fires of Hell</i> estão a apenas uma caminhada de distância.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">19</div> <h4>O Sol</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_sun.png" width="100%"></div>
+                        <p class="destino-text"><b>A Vila de Yew</b><br><br>Se você pegar esta carta, terá uma nova vida em um vale de floresta densa, a oeste de <i>Britain</i> e a leste de <i>Moon</i>, onde o sol faz crescer as maiores árvores de <i>Sosaria</i>. <i>Yew</i> é um dos principais locais de comércio de madeira. Durante a <i>Terceira Era das Trevas</i>, o <i>Estranho</i> visitou <i>Yew</i> e aprendeu os segredos da <i>Grande Serpente da Terra</i>. Isso permitiu que o <i>Estranho</i> libertasse a serpente que estava impedindo seu navio de chegar ao <i>Castelo do Exodus</i> na <i>Isle of Fire</i>. Alguns dizem que a libertação da serpente causou um desequilíbrio no cosmos, mas isso pode ser devido a bruxos bêbados contando histórias. Você pode minerar em uma caverna próxima, mas os mineradores descobriram algo no lado sul da cordilheira em que eles não ousam entrar.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="uo-card card race-card">
+                        <div class="step-number">12</div> <h4>O Enforcado</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_hanged_man.png" width="100%"></div>
+                        <p class="destino-text"><b>As Masmorras de Britain</b><br><br>Você pode escolher um destino neste mundo que oferece uma vida mais desafiadora, onde você é um fugitivo da justiça. Se escolher esse caminho, poderá se tornar grandmaster em 13 habilidades diferentes, em vez das 10 normalmente alcançadas. Isso se deve ao fato de você depender de si mesmo para sobreviver. Tributos pela ressurreição custarão o dobro do valor, talvez forçando você a ressuscitar com penalidades. Você não terá permissão para entrar em nenhuma área civilizada, a menos que encontre uma maneira de se disfarçar. As exceções são algumas áreas públicas, como pousadas, tavernas e bancos. Guardas o atacarão à primeira vista, mercadores tentarão expulsá-lo e você não poderá se juntar a nenhuma guilda local, exceto as guildas de Assassinos, Ladrões e Magia Negra. A razão para isso é que você é procurado por assassinato. Você pode ter realmente cometido o ato ou pode ter sido simplesmente incriminado. O assassinato foi contra uma figura muito poderosa, então as muitas terras jamais perdoarão o ato. Seja verdade ou mentira, cabe a você decidir. Faça da sua vida o que quiser. Você pode viver uma vida de perseguições criminosas ou destruir o mal que espreita nos lugares mais sombrios da terra. Se desejar escolher tal vida, estará por conta própria e primeiro precisará escapar da sua cela. De lá, é melhor seguir para <i>Stonewall</i>, a noroeste, mas pode ir para onde quiser. Tudo o que você precisa pode ser encontrado em qualquer lugar do mundo.</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h2 class="text-center">Destinos Criaturas</h2>
+            
+            <div class="row mt-4">
+                <div class="col-md-6 mb-4">
+                    <div class="uo-card card race-card">
+                        <h4>O Dia</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_day.png" width="100%"></div>
+                        <p class="destino-text">Este mundo sofreu três eras de escuridão, onde um estranho veio de uma terra distante para trazer luz a cada um desses eventos. Depois que <i>Mondain</i>, <i>Minax</i> e <i>Exodus</i> foram frustrados em seus planos malignos, <i>Sosaria</i> alcançou um nível de paz e prosperidade. Embora a maioria queira levar uma vida humilde como simples aldeões, há alguns que buscam explorar as antigas masmorras, tumbas, ruínas e criptas do mundo. Este caminho o levará a se unir aos costumes dos homens civilizados, mas isso certamente fará com que seus semelhantes o banam de sua presença. Isso pouco importa para você, pois prefere buscar fama e fortuna neste mundo livre dos males mais poderosos que ele já viu.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="uo-card card race-card">
+                        <h4>A Noite</h4>
+                        <div class="uo-feature-icon"><img src="destinos/the_night.png" width="100%"></div>
+                        <p class="destino-text">Este destino em <i>Sosaria</i> tem uma vida mais desafiadora, onde você talvez tenha deixado outros de sua espécie, mas decidiu abraçar seus caminhos monstruosos e buscar poder para si mesmo. Você poderá se tornar um grandmaster em 13 habilidades diferentes, em vez das 10 normalmente alcançadas. Tributos pela ressurreição custarão o dobro do valor, talvez forçando você a ressuscitar com penalidades. Você não terá permissão para entrar em nenhuma área civilizada, a menos que encontre uma maneira de se disfarçar. As exceções são algumas áreas públicas, como estalagens, tavernas e bancos. Guardas o atacarão à vista, comerciantes tentarão expulsá-lo e você não poderá se juntar a nenhuma guilda local, exceto as guildas Assassino, Ladrão e Magia Negra. A razão para isso é que você é visto como uma fera assassina. Tudo o que você precisa pode ser encontrado em todo o mundo, no entanto, para que você possa partir em sua jornada.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regras -->
+    <section id="regras" class="container mt-5">
+        <div class="uo-section">
+            <h2 class="text-center">Regras do Servidor</h2>
+            <p>Para garantir uma experiência justa e divertida para todos os jogadores, estabelecemos algumas regras básicas que devem ser seguidas por todos.</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <div class="rule-card">
+                        <h4>Roleplay é Obrigatório</h4>
+                        <p>Este é um servidor de roleplay. Todos os jogadores devem interpretar seus personagens de forma consistente e respeitosa.</p>
+                    </div>
+                    
+                    <div class="rule-card metagaming">
+                        <h4>Sem Metagaming</h4>
+                        <p>Não utilize informações que seu personagem não teria acesso para obter vantagem no jogo.</p>
+                    </div>
+                    
+                    <div class="rule-card community">
+                        <h4>Respeito à Comunidade</h4>
+                        <p>Trate todos os jogadores com respeito. Discriminação, assédio e comportamento tóxico não serão tolerados.</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="rule-card powergaming">
+                        <h4>Sem Powergaming</h4>
+                        <p>Não force ações em outros jogadores sem seu consentimento. Roleplay deve ser uma experiência colaborativa.</p>
+                    </div>
+                    
+                    <div class="rule-card">
+                        <h4>Sem Exploração de Bugs</h4>
+                        <p>Se encontrar um bug, reporte-o à administração. Explorar bugs para obter vantagem resultará em punição.</p>
+                    </div>
+                    
+                    <div class="rule-card community">
+                        <h4>Linguagem Apropriada</h4>
+                        <p>Mantenha a linguagem apropriada nos canais públicos. Conteúdo ofensivo ou inapropriado não será tolerado.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="https://wiki.ecosdesosaria.com/wiki/Sobre#Regras" class="btn uo-btn" target="_blank">Regras Completas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download -->
+    <section id="download" class="container mt-5">
+        <div class="uo-section">
+            <h2 class="text-center">Como Jogar</h2>
+            <p>Juntar-se aos Ecos de Sosaria é fácil! Siga os passos abaixo para começar sua aventura.</p>
+            
+            <div class="row mt-4">
+                <div class="col-md-4 mb-4">
+                    <div class="step-card">
+                        <div class="step-number">1</div>
+                        <h4>Baixe o Cliente</h4>
+                        <p>Faça o download do cliente do jogo (Linux, Windows ou Mac).</p>
+                        <a href="https://drive.google.com/drive/folders/1F-jcPycMGsB8pTKIlpq0uL4PwGvpV4JG?usp=drive_link" class="btn uo-btn mt-2" target="_blank">Baixar Cliente</a>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="step-card">
+                        <div class="step-number">2</div>
+                        <h4>Crie sua conta</h4>
+                        <p>Entre no jogo e crie sua conta diretamente no cliente.</p>
+                        <p class="bonus-text">Após criar a conta, você poderá criar seu personagem e começar sua jornada!</p>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 mb-4">
+                    <div class="step-card">
+                        <div class="step-number">3</div>
+                        <h4>Primeiros Passos</h4>
+                        <p>Ficou com alguma dúvida? Temos uma wiki de 'Primeiros Passos'.</p>
+                        <a href="https://wiki.ecosdesosaria.com/wiki/Primeiros_Passos" class="btn uo-btn mt-2" target="_blank">Primeiros Passos</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <p>Precisa de ajuda? Entre em contato conosco no Stoat!</p>
+                <a href="https://stt.gg/D4QVyFgc" class="btn uo-btn" target="_blank">Stoat do Servidor</a>
+            </div>
+        </div>
+    </section>
+
+    
+
+   
+    
+    <!-- Script para animações e funcionalidades -->
+    <script>
+        // Função para atualizar o status do servidor
+        async function atualizarStatus() {
+            const statusEl = document.querySelector(".server-status");
+            const countEl = document.getElementById("count");
+            const list = document.getElementById("players");
+            const accountsEl = document.getElementById("accounts");
+
+            try {
+                const res = await fetch("/api/players", { cache: "no-store" });
+                if (!res.ok) throw new Error("HTTP " + res.status);
+                const data = await res.json();
+
+                // Server status (online/offline)
+                if (data.online) {
+                    statusEl.innerHTML = '<i class="bi bi-check-circle-fill me-1"></i>Online';
+                    statusEl.classList.remove("text-danger", "border-danger");
+                    statusEl.classList.add("text-success", "border-success");
+                    statusEl.style.color = "";
+                } else {
+                    statusEl.innerHTML = '<i class="bi bi-x-circle-fill me-1"></i>Offline';
+                    statusEl.classList.remove("text-success", "border-success");
+                    statusEl.classList.add("text-danger", "border-danger");
+                    statusEl.style.color = "";
+                }
+
+                // Player count & accounts
+                countEl.textContent = " " + data.count;
+                if (accountsEl) accountsEl.textContent = " " + data.accounts;
+
+                // Player list
+                list.innerHTML = "";
+                if (data.count === 0) {
+                    list.innerHTML = "<li class='text-muted'><i class='bi bi-person-x me-2'></i>Nenhum jogador online</li>";
+                } else {
+                    data.players.forEach(name => {
+                        const li = document.createElement("li");
+                        li.innerHTML = `<i class="bi bi-person-fill me-2 text-success"></i>${escapeHtml(name)}`;
+                        list.appendChild(li);
+                    });
+                }
+
+            } catch (e) {
+                statusEl.innerHTML = '<i class="bi bi-exclamation-triangle-fill me-1"></i>Offline';
+                statusEl.classList.remove("text-success", "border-success");
+                statusEl.classList.add("text-danger", "border-danger");
+                countEl.textContent = "0";
+                if (accountsEl) accountsEl.textContent = "0";
+                list.innerHTML = "<li class='text-muted'><i class='bi bi-wifi-off me-2'></i>Erro ao conectar</li>";
+                console.error("atualizarStatus error:", e);
+            }
+        }
+
+        // função simples para escapar HTML (nome do player)
+        function escapeHtml(text) {
+            return text.replace(/[&<>"'`=\/]/g, function (s) {
+                return ({
+                    '&': '&amp;',
+                    '<': '&lt;',
+                    '>': '&gt;',
+                    '"': '&quot;',
+                    "'": '&#39;',
+                    '/': '&#x2F;',
+                    '`': '&#x60;',
+                    '=': '&#x3D;'
+                })[s];
+            });
+        }
+
+        // inicializa
+        atualizarStatus();
+        setInterval(atualizarStatus, 50000);
+
+        // Suavizar rolagem para âncoras
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+        
+        // Adicionar classe ativa ao item de menu quando a seção estiver visível
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.uo-nav .nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+            
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+
