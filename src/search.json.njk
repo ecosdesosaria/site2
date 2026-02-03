@@ -1,0 +1,17 @@
+---
+permalink: /search.json
+eleventyExcludeFromCollections: true
+---
+
+{% set docs = [] %}
+
+{% for post in collections.blog %}
+  {% set docs = docs.concat([{
+    title: post.data.title,
+    url: post.url,
+    content: post.templateContent | striptags,
+    tags: post.data.tags
+  }]) %}
+{% endfor %}
+
+{{ docs | dump | safe }}

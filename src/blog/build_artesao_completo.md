@@ -2,7 +2,7 @@
 title: Build - Artesão Completo
 date: 2026-02-01
 layout: post.njk
-tags: blog
+tags: [blog, Builds]
 description: Build para um artesão que contempla grande parte das profissões jogo.
 image: https://lemmy.eco.br/pictrs/image/3353bb5b-7142-4c60-9e8c-b72061aa8805.webp
 ---

@@ -18,6 +18,16 @@ export default function(eleventyConfig) {
       timeZone: "UTC"
     });
   });
+  
+  eleventyConfig.addFilter("getAllTags", collection => {
+    const tags = new Set();
+
+    collection.forEach(item => {
+      (item.data.tags || []).forEach(tag => tags.add(tag));
+  });
+
+    return [...tags].sort();
+    });
 
 
   // truncate filter (preview text)

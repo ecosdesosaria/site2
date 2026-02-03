@@ -2,7 +2,7 @@
 title: Bem-Vindos!
 date: 2026-01-31
 layout: post.njk
-tags: blog
+tags: [blog, Atualizações]
 description: Bem-vindos ao canal de notícias de Ecos de Sosaria
 ---
 
