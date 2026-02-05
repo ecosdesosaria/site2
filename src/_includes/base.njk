@@ -21,13 +21,20 @@
     <meta property="og:description" content="{{ description or 'Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.' }}">
 
    
-    <meta property="og:image" content="{{ image or '/logo_ecosdesosaria.png' }}">
+   {% set finalImage =
+    image
+        ? (image.startsWith("http") ? image : "https://www.ecosdesosaria.com" + image)
+        : "https://www.ecosdesosaria.com/logo_ecosdesosaria.png"
+    %}
+
+    <meta property="og:image" content="{{ finalImage }}">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="{{ page.url | url }}">
     <meta name="twitter:title" content="{{ title or 'Ecos de Sosaria - Servidor Ultima Online Roleplay' }}">
     <meta name="twitter:description" content="{{ description or 'Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.' }}">
-    <meta name="twitter:image" content="{{ image or '/logo_ecosdesosaria.png' }}">
+    <meta name="twitter:image" content="{{ finalImage }}">
+
 
     
     <!-- Bootstrap CSS -->
