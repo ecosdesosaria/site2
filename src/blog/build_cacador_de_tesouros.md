@@ -130,3 +130,5 @@ Ele confia mais em informação do que em força bruta. Um bom mapa vale mais qu
 
 Mantenha um diário de expedição: anotações, mapas rabiscados, nomes riscados.   
 Mesmo que só exista em texto, isso dá profundidade absurda ao personagem.
+
+Nos vemos em Sosaria ⚔️

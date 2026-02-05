@@ -12,6 +12,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/logo_ecosdesosaria.png");
   eleventyConfig.addPassthroughCopy("src/races");
   eleventyConfig.addPassthroughCopy("src/destinos");
+  eleventyConfig.addPassthroughCopy("src/blog/media");
 
   eleventyConfig.addFilter("readableDate", date => {
     return new Date(date).toLocaleDateString("pt-BR", {

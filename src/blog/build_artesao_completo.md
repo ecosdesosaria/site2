@@ -106,3 +106,5 @@ Você é livre para interpretar como quiser em Ecos de Sosaria, mas aqui vão al
 - Prefira tavernas calmas ou oficinas a locais luxuosos.
 
 - Dê nomes aos seus equipamentos, forjas ou ferramentas principais. Um martelo antigo com história vale mais, em interpretação, do que qualquer item raro.
+
+Nos vemos em Sosaria ⚔️

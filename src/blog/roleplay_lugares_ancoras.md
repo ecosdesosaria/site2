@@ -96,3 +96,5 @@ Cartas são escritas.
 Planos são feitos em silêncio.
 
 É um raro lugar onde até inimigos podem dormir sob o mesmo teto… ao menos por uma noite.
+
+Nos vemos em Sosaria ⚔️
