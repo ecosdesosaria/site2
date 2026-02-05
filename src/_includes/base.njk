@@ -21,11 +21,16 @@
     <meta property="og:description" content="{{ description or 'Servidor brasileiro de Ultima Online focado em roleplay. 33 espécies, 55 habilidades e sistema de destinos únicos.' }}">
 
    
-   {% set finalImage =
-    image
-        ? (image.startsWith("http") ? image : "https://www.ecosdesosaria.com" + image)
-        : "https://www.ecosdesosaria.com/logo_ecosdesosaria.png"
-    %}
+   {% set finalImage = "https://www.ecosdesosaria.com/logo_ecosdesosaria.png" %}
+
+        {% if image %}
+        {% if image[0] == "/" %}
+            {% set finalImage = "https://www.ecosdesosaria.com" + image %}
+        {% else %}
+            {% set finalImage = image %}
+        {% endif %}
+        {% endif %}
+
 
     <meta property="og:image" content="{{ finalImage }}">
 
