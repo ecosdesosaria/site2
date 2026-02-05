@@ -1,13 +1,11 @@
 ---
-title: Novo Canal XMPP Ecos de Sosaria!
+title: 💬 Novo Chat XMPP do Servidor
 date: 2026-02-05
 layout: post.njk
 tags: [blog, Atualizações, XMPP]
 description: Bem-vindos ao canal de notícias de Ecos de Sosaria
 image: /blog/media/updates.png
 ---
-
-# 💬 Novo Chat XMPP do Servidor
 
 Hoje decidi deixar o Stoat/Revolt e migrar o canal para o **XMPP**.
 

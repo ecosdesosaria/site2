@@ -1,13 +1,11 @@
 ---
-title: Roleplay - Lugares Âncoras de Sosaria
+title: 🏰 Roleplay - Lugares Âncoras de Sosaria
 date: 2026-02-01
 layout: post.njk
 tags: [blog, Roleplay]
 description: Build para um caçador de tesouros / treasure hunter desafiadora e para jogadores experientes.
 image: https://lemmy.eco.br/pictrs/image/29c3d9c6-14e6-44f0-9c7a-d5a9fcc09a9f.webp
 ---
-
-# Os Lugares Âncora de Sosaria
 
 Ao longo das eras, muitos viajantes perceberam um estranho fenômeno que desafia mapas, estradas e até mesmo a lógica dos portais arcanos.
 

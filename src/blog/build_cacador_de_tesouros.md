@@ -1,13 +1,11 @@
 ---
-title: Build - Caçador de Tesouros (hard mode)
+title: ⚔️ Build - Caçador de Tesouros (hard mode)
 date: 2026-02-01
 layout: post.njk
 tags: [blog, Builds]
 description: Build para um caçador de tesouros / treasure hunter desafiadora e para jogadores experientes.
 image: https://lemmy.eco.br/pictrs/image/02d7144a-937f-4410-af14-97c6f9b54f2e.webp
 ---
-
-# Introdução
 
 Este guia apresenta um **Treasure Hunter** / **Caçador de Tesouros** para *Ecos de Sosaria*, focado em exploração, investigação e recuperação de riquezas esquecidas pelo tempo. Trata-se de uma *build* voltada para jogadores experientes que preferem inteligência, cautela e planejamento em vez de confronto direto.
 

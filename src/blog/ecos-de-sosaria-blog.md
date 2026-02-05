@@ -1,12 +1,10 @@
 ---
-title: Bem-Vindos!
+title: 💬 Bem-Vindos!
 date: 2026-01-31
 layout: post.njk
 tags: [blog, Atualizações]
 description: Bem-vindos ao canal de notícias de Ecos de Sosaria
 ---
-
-# Bem-vindos aventureiros 🏰
 
 Hoje inauguramos o **canal oficial de notícias de Ecos de Sosaria**.
 

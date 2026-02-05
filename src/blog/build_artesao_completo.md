@@ -1,13 +1,11 @@
 ---
-title: Build - Artesão Completo
+title: ⚔️ Build - Artesão Completo
 date: 2026-02-01
 layout: post.njk
 tags: [blog, Builds]
 description: Build para um artesão que contempla grande parte das profissões jogo.
 image: https://lemmy.eco.br/pictrs/image/3353bb5b-7142-4c60-9e8c-b72061aa8805.webp
 ---
-
-# Introdução
 
 O Artesão completo é focado na autossuficiência, versatilidade econômica e domínio das profissões de criação. A proposta dessa build é reunir as principais skills necessárias para coletar recursos, transformá-los em itens e maximizar os seus valores de mercado.
 
