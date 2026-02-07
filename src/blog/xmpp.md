@@ -26,6 +26,6 @@ Hoje decidi deixar o Stoat/Revolt e migrar o canal para o **XMPP**.
 
 O link para acessar, caso você já tenha um cliente XMPP e uma conta é: [xmpp:ecosdesosaria@conference.isacloud.cc?join](xmpp:ecosdesosaria@conference.isacloud.cc?join)
 
-Caso você não tenha uma conta ou cliente, coloquei alguns detalhes na [Wiki](https://wiki.ecosdesosaria.com/wiki/XMPP)
+Caso você não tenha uma conta ou cliente, coloquei alguns detalhes na [Wiki](https://wiki.ecosdesosaria.com/wiki/XMPP) ou acesse [https://xmpp.link/#ecosdesosaria@conference.isacloud.cc%3Fjoin](https://xmpp.link/#ecosdesosaria@conference.isacloud.cc%3Fjoin)
 
 Nos vemos em Sosaria ⚔️
