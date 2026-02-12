@@ -20,7 +20,7 @@ Nas cavernas e cidades soterradas sob Sosaria, aprenderam que a sobrevivência n
 
 Belos e inquietantes, movem-se com leveza felina e olhos acostumados à noite eterna. Sua cultura valoriza silêncio, estratégia e conhecimento secreto. Para um Drow, uma batalha vencida sem ser visto é a única vitória digna.
 
-![/media/drows_umbra.png](/media/drows_umbra.png)
+![/blog/media/drows_umbra.png](/media/drows_umbra.png)
 
 Enquanto os povos da superfície constroem muralhas, os Drow aprendem a encontrar passagens ocultas.  
 Enquanto guerreiros confiam em aço, eles confiam em frascos, venenos e misturas cuidadosamente preparadas.
@@ -49,7 +49,7 @@ Para criar um Drow, você deve ir a Estante da Cigana e escolher a última Opç�
 
 Você poderá escolher entre "Elfo Negro" e "Elfa Negra" (Masculino e Feminino, respectivamente) utilizando as setas da interface para a direita e/ou esquerda.
 
-![/media/drows_creation.png](/media/drows_creation.png)
+![/blog/media/drows_creation.png](/media/drows_creation.png)
 
 Depois de escolher a espécie, fale com a Cigana e você terá duas opções:
 - "A Morte" - Você nascerá em Umbra como inocente;
