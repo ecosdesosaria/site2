@@ -13,6 +13,7 @@ export default function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/races");
   eleventyConfig.addPassthroughCopy("src/destinos");
   eleventyConfig.addPassthroughCopy("src/blog/media");
+  eleventyConfig.addPassthroughCopy("src/llms.txt");
 
   eleventyConfig.addFilter("readableDate", date => {
     return new Date(date).toLocaleDateString("pt-BR", {
