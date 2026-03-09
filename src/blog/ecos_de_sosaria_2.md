@@ -111,7 +111,7 @@ As mudanças são muitas, seguem as principais:
     - Clues agora se chama Library of Bal Tsareth.
 
 <figure>
-  <img src="/blog/media/drows_creation.png" alt="Fanaedar - Cidade de Drows hostis">
+  <img src="/blog/media/drows_city.png" alt="Fanaedar - Cidade de Drows hostis">
   <figcaption>Fanaedar - Cidade de Drows hostis</figcaption>
 </figure>
 
