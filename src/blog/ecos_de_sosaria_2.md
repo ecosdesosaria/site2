@@ -1,6 +1,6 @@
 ---
 title: 💬 Patch Notes - Ecos de Sosaria 2!
-date: 2026-02-07
+date: 2026-03-09
 layout: post.njk
 tags: [blog, Atualizações]
 description: Migração para mod Efellen.
