@@ -4,14 +4,20 @@ date: 2026-03-09
 layout: post.njk
 tags: [blog, Atualizações]
 description: Migração para mod Efellen.
-image: /blog/media/updates.png
+image: /blog/media/skeleton_king.png
 ---
 
 Major patch de migração do mod Secrets of Sosaria para o mod [Efellen](https://github.com/EstelMatiazi/Efellen). 
 
+### Para quem já joga
+
+Devido a mudança ser grande, será necessário atualizar o cliente também. [Baixe](https://drive.google.com/drive/folders/1F-jcPycMGsB8pTKIlpq0uL4PwGvpV4JG?usp=drive_link) o arquivo do jogo completo no nosso site e sobrescreva apenas a pasta 'Files' ao seu jogo instalado. Isso evita que você perca suas configurações do TazUO que já tem.
+
+**Importante:** Sugerimos que use esses próximos dias para efetuar testes e encontrar bugs. Se for muito caótico, voltamos a versão anterior (que pode ou não perder o progresso, dependendo do bug / falha encontrada).
+
 ### Mudanças
 
-Por conta do volume de mudanças seram altas, é esperado um grande impacto e potencialmente muitos bugs. Pedimos encarecidamente que qualquer bug ou problema, por favor, me comunique.
+Por conta do volume de mudanças seram altas, é esperado um grande impacto e potencialmente muitos bugs. Pedimos gentilmente que ao encontrar qualquer bug ou problema, por favor, me comunique.
 
 As mudanças são muitas, seguem as principais:
 
