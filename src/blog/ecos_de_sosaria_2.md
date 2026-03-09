@@ -7,7 +7,18 @@ description: Migração para mod Efellen.
 image: /blog/media/skeleton_king.png
 ---
 
-Major patch de migração do mod Secrets of Sosaria para o mod [Efellen](https://github.com/EstelMatiazi/Efellen). 
+Major patch de migração do mod Secrets of Sosaria para o mod [Efellen](https://github.com/EstelMatiazi/Efellen).
+
+O patch está cheio de novidades, atualizações e referências.   
+Tem uma homenagem a Ozzy Osbourne como o Príncipe das Trevas, referências a Diablo com o 'Butcher' e o 'Skeleton King' além de uma super atualização para os druidas que agora podem se transformar em criaturas.
+
+Além de modificações nos mapas, novas dungeons, novos chefes e novos artefatos!
+
+E a Estel do Efellen não para! Está atualmente testando novas classes end-game que quando estiver tudo certinho, entra aqui também.
+
+*Nota: Lembrando que o Ecos de Sosaria é um servidor Roleplay, então a interpretação do personagem é obrigatória. Caso você não goste de **Roleplay**, sugiro conhecer o [Secrets of Sosaria BR](https://instagram.com/secretsofsosariabr). Lá roda o mesmo mod daqui, mas sem a necessidade de interpretação.*
+
+Espero que gostem!
 
 ### Para quem já joga
 
