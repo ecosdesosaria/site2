@@ -629,26 +629,13 @@ title: Ecos de Sosaria - Servidor Ultima Online Roleplay
 
         // função simples para escapar HTML (nome do player)
         function escapeHtml(text) {
-	  
-	    let decoded = text.replace(/&#39;/g, "'")
-	                      .replace(/&amp;/g, '&')
-	                      .replace(/&lt;/g, '<')
-	                      .replace(/&gt;/g, '>')
-	                      .replace(/&quot;/g, '"');
-	    
-	    
-	    return decoded.replace(/[&<>"\/`=]/g, function (s) {
-	        return ({
-	            '&': '&amp;',
-	            '<': '&lt;',
-	            '>': '&gt;',
-	            '"': '&quot;',
-	            '/': '&#x2F;',
-	            '`': '&#x60;',
-	            '=': '&#x3D;'
-	        })[s];
-	    });
-	}
+		    
+		    return text.replace(/&#39;/g, "'")
+		               .replace(/&amp;/g, '&')
+		               .replace(/&lt;/g, '<')
+		               .replace(/&gt;/g, '>')
+		               .replace(/&quot;/g, '"');
+		}
 
         // inicializa
         atualizarStatus();
