@@ -7,8 +7,6 @@ description: Patch de atualização com a inclusão da expansão O Presente de L
 image: /blog/media/updates.png
 ---
 
-# Patch Notes - 16/06/2026
-
 Agora em Junho a Estel lançou a primeira release do [Efellen](https://github.com/EstelMatiazi/Efellen), que é o mod que rodamos aqui no Ecos de Sosaria.
 
 **IMPORTANTE**: Aproveito para deixar aqui o [Patreon](https://www.patreon.com/cw/EstelMatiazi/) dela, se você gosta do que acontece aqui no Ecos de Sosaria, considere [fazer uma doação](https://www.patreon.com/cw/EstelMatiazi/) a desenvolvedora. 
